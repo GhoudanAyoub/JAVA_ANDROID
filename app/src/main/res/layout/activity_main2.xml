@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.MainActivity">
+
+    <Button
+        android:id="@+id/buttonTP1EX1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TP1EX1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonTP1EX2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TP1EX2"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonTP1EX3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TP1EX3"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonTP1TR1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TP1TR1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonTP2EX1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TP2EX1"
+        android:textSize="16sp" />
+</LinearLayout>

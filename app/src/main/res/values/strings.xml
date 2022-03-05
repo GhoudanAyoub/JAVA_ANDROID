@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TP Java Android Ayoub Ghoudan</string>
+    <string name="IBase">Impot de Base :</string>
+    <string name="ISup">Impot Supplementaire :</string>
+    <string name="Itotal">Impot Total :</string>
+    <string name="E3Q1">1. Le pattern MVC signifie :</string>
+    <string name="E3Q1R1">Multiple versions Combined</string>
+    <string name="E3Q1R2">Model View Controller</string>
+    <string name="E3Q1R3">Main Value Compiled</string>
+    <string name="E3Q1R4">Mandatory Validated Controls</string>
+    <string name="E3Q2">2. La Syntaxe $[x] est permies dans une JSP :</string>
+    <string name="E3Q2R1">OUI</string>
+    <string name="E3Q2R2">NON</string>
+    <string name="E3Close">Quitter</string>
+    <string name="E3Next">Suivant</string>
+    <string name="FullName">Nom / Prenom :</string>
+    <string name="Email">Email :</string>
+    <string name="Phone">Phone :</string>
+    <string name="Adresse">Adresse :</string>
+    <string name="ville">Ville :</string>
+
+    <string name="send">Envoyer</string>
+
+    <string name="TP1EX1">TP1 EX1</string>
+    <string name="TP1EX2">TP1 EX2</string>
+    <string name="TP1EX3">TP1 EX3</string>
+    <string name="TP1TR1">TP1 Travail A Rendre</string>
+    <string name="TP2EX1">TP2 EX1</string>
+
+    <string name="goToWeb">Open WebSite</string>
+    <string name="goToMap">Open Location</string>
+    <string name="goToShare">Share This Text</string>
+
+    <string name="Web">http://developer.android.com</string>
+    <string name="Map">Golden Gate Bridge</string>
+    <string name="Share">Share This Text </string>
+    <string name="share_text_with">Share</string>
+
+    <string-array name="Ville">
+        <item>AGADIR</item>
+        <item>MARRAKECH</item>
+        <item>CASA</item>
+        <item>TANGA</item>
+        <item>ESSAOUIRA</item>
+    </string-array>
+
+</resources>
