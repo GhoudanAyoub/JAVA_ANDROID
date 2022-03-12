@@ -33,6 +33,7 @@ public class FoodListActivity extends AppCompatActivity implements AdapterView.O
     }
     public void InitList(){
         foodAdapter.setFoodList(foodList);
+        fs.create(foodList);
         liste.setAdapter(foodAdapter);
         liste.setOnItemClickListener(this);
     }
@@ -40,9 +41,17 @@ public class FoodListActivity extends AppCompatActivity implements AdapterView.O
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         final TextView id = view.findViewById(R.id.idf);
-        Food f = fs.findById(Integer.parseInt(id.getText().toString()));
-        Intent it = new Intent(getApplicationContext(),FoodDetailActivity.class);
-        it.putExtra("id", (Parcelable) f);
-        startActivity(it);
+        startActivity(
+                new Intent(getApplicationContext(),FoodDetailActivity.class)
+                        .putExtra("id", id.getText().toString()));
+        finish();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        foodAdapter.setFoodList(null);
+        foodAdapter.setFoodList(foodList);
     }
 }

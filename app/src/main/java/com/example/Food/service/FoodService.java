@@ -33,7 +33,6 @@ public class FoodService implements IDao<Food> {
     @Override
     public boolean delete(Food o) {
         Foods.remove(o);
-        notifyAll();
         return true;
     }
 

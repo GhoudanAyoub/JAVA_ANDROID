@@ -19,7 +19,6 @@ import java.util.List;
 
 public class FoodAdapter extends BaseAdapter {
     private List<Food> Foods;
-    private FoodService foodService = FoodService.getInstance();
     private LayoutInflater inflater;
     private Activity context;
 
@@ -59,7 +58,7 @@ public class FoodAdapter extends BaseAdapter {
 
         idf.setText(Foods.get(position).getId()+"");
         nom.setText(Foods.get(position).getNom());
-        quantite.setText(Foods.get(position).getQuantite()+"");
+        quantite.setText(Foods.get(position).getQuantite()+" Min");
         Glide.with(context)
                 .load(Foods.get(position).getPhoto())
                 .centerCrop()

@@ -7,18 +7,24 @@ public class Food {
     private int quantite;
     private String photo;
     private String desc;
+    private String ing;
 
     private static int comp;
 
     public Food() {
     }
 
-    public Food(String nom, int quantite, String photo, String desc) {
+    public Food(String nom, int quantite, String photo, String desc,String ing) {
         this.id = ++comp;
         this.nom = nom;
         this.quantite = quantite;
         this.photo = photo;
         this.desc = desc;
+        this.ing=ing;
+    }
+
+    public String getIng() {
+        return ing;
     }
 
     public int getId() {
