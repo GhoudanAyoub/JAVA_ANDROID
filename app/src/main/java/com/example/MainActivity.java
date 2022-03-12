@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.Food.UI.FoodMainActivity;
 import com.example.TP2.TP2_EX1;
 import com.example.tp1.EX3;
 import com.example.tp1.Ex1;
@@ -23,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.buttonTP1EX3).setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), EX3.class)));
         findViewById(R.id.buttonTP1TR1).setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), TR1.class)));
         findViewById(R.id.buttonTP2EX1).setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), TP2_EX1.class)));
+        findViewById(R.id.buttonFoodApp).setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), FoodMainActivity.class)));
     }
 }

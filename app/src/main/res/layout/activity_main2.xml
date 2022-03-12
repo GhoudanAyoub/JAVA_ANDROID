@@ -43,4 +43,10 @@
         android:layout_height="wrap_content"
         android:text="@string/TP2EX1"
         android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonFoodApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/food_app" />
 </LinearLayout>
